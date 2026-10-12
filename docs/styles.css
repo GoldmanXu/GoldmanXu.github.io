@@ -95,3 +95,5 @@
 
 /* The resolved 3D name remains a cloud of interactive color points. */
 #reference-stage canvas{cursor:crosshair}
+
+.research-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
