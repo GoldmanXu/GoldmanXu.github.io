@@ -1,0 +1,30 @@
+Jinyuan Xu — reference-inspired 3D homepage hero
+
+The scene is adapted from Liangbing (Liam) Zhao's open-source homepage:
+https://github.com/liangbingzhao/liangbingzhao.github.io/tree/redesign-3d
+Source revision: 964aa2076be23552640e32962f31cac60ccca4cc
+Original source files: src/scripts/hero/scene.ts and font.typeface.json.
+The source repository supplies an MIT license, included as LICENSE-original.txt.
+Its notice credits Copyright (c) 2022 Maruan Al-Shedivat.
+
+Local changes: the name Jinyuan Xu in Comic Sans MS Regular;
+uniform warm ivory particles;
+transparent seascape composition; explicit pause and reduced-motion behavior;
+first-render readiness, fallback lifecycle, and independently bundled assets.
+The final name remains a point cloud, with spring-based cursor repulsion and
+tap waves. Matte single-face sampling and normal alpha blending replace
+extruded, additive surfaces. The original Gaussian denoising opening is preserved.
+
+Bundled runtime dependencies:
+- Three.js 0.186.1, https://github.com/mrdoob/three.js, MIT.
+  Full notice: LICENSE-three.txt.
+The fixed name artwork is rendered locally using Comic Sans MS Regular.
+No Comic Sans font program or general-purpose glyph collection is distributed.
+
+Legacy source asset (not loaded by the current scene):
+- Space Grotesk Bold, https://github.com/floriankarsten/space-grotesk,
+  Copyright 2020 The Space Grotesk Project Authors, SIL Open Font License 1.1.
+  Full notice: OFL-Space-Grotesk.txt.
+
+esbuild 0.28.2 is used only to build the standalone bundle, not shipped as runtime.
+No original photographs, personal text, CV, or publication assets are included.
