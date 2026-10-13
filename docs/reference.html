@@ -61,7 +61,7 @@
         <div class="about-copy">
           <p class="lead">Hi, I’m <strong>Jinyuan Xu</strong> <span class="chinese-name" lang="zh-CN">(徐瑾源)</span>. I work on making visual generative models <em>better, faster, and more useful.</em></p>
           <p>I’m a master’s student in Artificial Intelligence at <a href="https://www.hkust-gz.edu.cn/" target="_blank" rel="noopener noreferrer">The Hong Kong University of Science and Technology (Guangzhou)</a>, and a member of <strong>XLeaF Lab</strong>. My research focuses on video generation, diffusion models, and video restoration.</p>
-          <p>I’m also a research intern in the Imaging Algorithm Research Department at <strong>vivo</strong>, working on mixed-resolution diffusion distillation for efficient video super-resolution.</p>
+          <p>I’m also a research intern in the Imaging Algorithm Research Department at <strong>vivo</strong>.</p>
           <p>Beyond research, I create AI-generated visual stories with <span lang="zh-CN">星火AI动漫</span>. Across Kuaishou and Douyin, we have built a combined following of 10,000. Building with generative tools is also how I discover new research questions.</p>
         </div>
         <figure class="profile-card">
@@ -78,7 +78,7 @@
     <section id="news" class="section compact" aria-labelledby="news-title">
       <div class="section-heading"><span class="section-number">02</span><h2 id="news-title">A few updates.</h2><span class="heading-aside">ON THE WAY</span></div>
       <ol class="news-list">
-        <li><time datetime="2026-08">Aug 2026</time><p>Joined <strong>vivo</strong> as a research intern, working on efficient diffusion distillation for video super-resolution.</p><span class="news-dot" aria-hidden="true"></span></li>
+        <li><time datetime="2026-08">Aug 2026</time><p>Joined <strong>vivo</strong> as a research intern in the Imaging Algorithm Research Department.</p><span class="news-dot" aria-hidden="true"></span></li>
         <li><time datetime="2025-09">Sep 2025</time><p>Started my master’s studies in <strong>Artificial Intelligence at HKUST (Guangzhou)</strong>.</p></li>
         <li><time datetime="2025-07">Jul 2025</time><p>Joined <strong>XLeaF Lab</strong> to explore visual generative models.</p></li>
       </ol>
@@ -108,12 +108,8 @@
           <span class="vivo-status"><span aria-hidden="true"></span> Research in progress</span>
         </div>
         <div class="research-body">
-          <div class="research-meta"><span class="tag teal">VIDEO SUPER-RESOLUTION</span><span>Ongoing · vivo</span></div>
-          <h3>Draft-and-Render:<br> Mixed-Resolution Distillation for Video Super-Resolution</h3>
-          <p class="authors">First-author research · Imaging Algorithm Research Department</p>
-          <p class="research-summary">A four-step diffusion distillation framework for 480p-to-720p video super-resolution. Three steps restore and refine the video at 480p, followed by a single 720p reconstruction step, all using one shared student model.</p>
-          <p class="research-footnote">Estimated backbone compute: about 45% of a four-step, all-720p baseline (approximately 55% less).</p>
-          <details class="project-details"><summary>Read method overview <span aria-hidden="true">+</span></summary><div><p>The sampling trajectory changes from four high-resolution steps (HHHH) to three low-resolution steps and one high-resolution step (LLLH). The original low-quality video conditions every step; the final step switches to the higher-resolution latent space for reconstruction.</p><p>Distillation and super-resolution are unified in one training framework. The mixed-resolution trajectory retains iterative refinement while concentrating high-resolution computation in the final step.</p></div></details>
+          <h3>Draft-and-Render: Mixed-Resolution Distillation for Video Super-Resolution</h3>
+          <p class="research-summary" lang="zh-CN">独立一作 / 进行中，拟投 ICML</p>
         </div>
       </article>
     </section>
